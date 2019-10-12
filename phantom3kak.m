@@ -1,5 +1,8 @@
 function [p]=phantom3kak(nx,ny,nz)
 % use to generate three dimension phantom
+% nx,ny,nz is the size of phantom
+% to generate a 128*128*64 phantom 
+% p = phantom3kak(128,128,64 
 
 %      
 %         A      a     b     c     x0      y0      z0    phi  theta    psi
