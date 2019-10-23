@@ -20,10 +20,11 @@ e =    [  2  .6900  .920  .900      0       0       0      0      0      0
 
 
 
-n=128;
-nx=n;
-ny=n;
-nz=n;
+%n=128;
+%nx=n;
+%ny=n;
+%nz=n;
+
 p = zeros([nx ny nz]);
 rngx= ( (0:nx-1)-(nx-1)/2 ) / ((nx-1)/2); 
 rngy = -1*( (0:ny-1)-(ny-1)/2 ) / ((ny-1)/2); 
@@ -65,7 +66,7 @@ for k = 1:10
 
 end
 
-p = reshape(p,[n n n]);
+p = reshape(p,[nx ny nz]);
 
 
 
